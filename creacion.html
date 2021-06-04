@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="creacion.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+
+<h4 class="crea-h4">Crea tu Evento</h4>
+
+<div class="container" id="container">
+
+  <div class="event-time">
+
+      <div class="form-group form-up">
+      <label for="event">Titulo del Evento</label>
+      <input type="text" class="form-control" id="inputEvento" placeholder="Nombre del evento">
+    </div>
+
+    <div class="form-group form-up">
+      <label for="start">Fecha de Inicio</label>
+      <input type="text" class="form-control" id="inputInicio" placeholder="00/00/0000">
+    </div>
+
+    <div class="form-group form-up">
+      <label for="hour">Hora</label>
+      <input type="text" class="form-control" id="inputHora" placeholder="00:00">
+    </div>
+
+  </div>
+
+  <div class="datos">
+
+    <div class="form-group">
+    <label for="name">Nombre</label>
+    <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+  </div>
+
+  <div class="form-group">
+    <label for="tel">Telefono</label>
+    <input type="tel" class="form-control" id="inputTelefono" placeholder="555555555">
+  </div>
+  </div>
+
+  <h5 class="descripcion-h5">Descripcion del evento</h5>
+   <div class="descripcion-map">
+    <div class="box">
+    <p class="conference"><b>Conferencia Sobre Redes Sociales</b></p>
+    <p class="responsable">Responsable de la Charla: <i>Jesus Gutierrez</i></p>
+  </div>
+
+  <div class="container-fluid cont-map">
+    <div class="map-responsive">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.296454352763!2d-5.972863884838506!3d37.359161679837214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126e945250f417%3A0xf9873a96d1b190d1!2sFundaci%C3%B3n%20Don%20Bosco%20Salesianos%20Social!5e0!3m2!1ses-419!2sus!4v1622827822601!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+
+ 
+
+    <div class="btn-crear">
+    <button type="submit" class="btn btn-primary btnSubmit">Crear evento</button>
+  </div>
+
+</div>
+
+</body>
+<script src="creacion.js"></script>
+</html>
