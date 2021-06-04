@@ -20,7 +20,7 @@ window.onload = () => {
                     localStorage.setItem('token', res.data.token);
                     setTimeout(
                         function(){
-                            window.location.href = "list-events.html";
+                            window.location.href = "index.html";
                         }, 3000);
                 }
             })
