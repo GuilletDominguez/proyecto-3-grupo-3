@@ -1,7 +1,6 @@
 .container {
     align-items: center;
     padding-left: 80px;
-    background-color:rgb(243, 237, 237);
  
 }
 h2 {
@@ -168,31 +167,6 @@ footer {
     grid-gap: 300px;
 }
 
-#headerEvento {
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: transparent;
-    color: #fff;
-    padding: 0 1rem;
-    font-size: 1.8rem;
-    height: 80px;
-    line-height: 80px;
-    transition: .3s all ease;
-}
-
-#headerEvento.active {
-    background: #108040;
-}
-
-#cambio {
-    height: 150vh;
-    padding: 60px 0;
-    text-align: center;
-    color: #fff;
-    background: #111;
-}
 
 .form-control {
     display: block;
