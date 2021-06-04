@@ -1,0 +1,252 @@
+.container {
+    align-items: center;
+    padding-left: 80px;
+    background-color:rgb(243, 237, 237);
+ 
+}
+h2 {
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
+.btn-btn-primary {
+    background-color: #F51D1D;
+    border-radius: 0.75em;
+    border-color: #F51D1D;
+    text-align: center;
+    width: 9.313em;
+    height: 2.438em;
+    color: white;
+    font-family: Montserrat;
+    margin-left: 23.875em;
+    margin-bottom: 100px;
+    margin-top: -50px;
+
+}
+
+.flw {
+    width: 90% !important;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    height: 38px;
+ 
+}
+
+.mensaje{
+    margin-left: 313px;
+    margin-top: 25px;
+}
+.flh {
+    height: 150px;
+    width: 40% !important;
+    margin-inline: auto;
+}
+
+.textarea {
+    width: 70px;
+    height: 100px;
+}
+
+.col-md-6 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border-bottom: 2px solid grey;
+    background-color: white;
+    width: 100%;
+}
+
+.nav-top {
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-top ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-top ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: #dc001b;
+}
+
+.crear-grupo {
+    margin-right: 30px;
+    border-right: 2px solid gray;
+}
+
+.profile-icon {
+    background-color: #51626f;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.main-container {
+    height: 935px;
+}
+
+.nav-footer ul li {
+    list-style: none;
+}
+
+.nav-footer ul li a {
+    text-decoration: none;
+    color: white;
+    font: size 1em;
+    ;
+}
+
+footer {
+    border-top: 2px solid grey;
+    background-color: #dc001b;
+    padding-bottom: 0.063em;
+    padding-top: 0.938em;
+}
+
+.hola {
+    border: 3px solid grey;
+}
+
+.who-organized {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.header-evento {
+    display: grid;
+    grid-template-columns: 200px 940px;
+    align-items: center;
+    justify-content: end;
+    grid-gap: 2 00px;
+    margin-bottom: 90px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: #dc001b;
+    color: white;
+    position: sticky;
+    top: 0;
+    bottom: 1500px;
+}
+
+.fecha-profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-evento {
+    grid-template-columns: 300px 300px;
+    display: grid;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+    border-top: 2px solid grey;
+    height: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    grid-gap: 300px;
+}
+
+#headerEvento {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    height: 80px;
+    line-height: 80px;
+    transition: .3s all ease;
+}
+
+#headerEvento.active {
+    background: #108040;
+}
+
+#cambio {
+    height: 150vh;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+    background: #111;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+@media screen and (max-width : 800px) {
+    .imagen{
+        display: flex;
+        flex-direction: column;
+    }
+    .mensaje{
+        margin-left: 9px;
+        margin-top: 19px;
+    }
+    .flh {
+        height: 150px;
+        width: 99% !important;
+        margin-inline: auto;
+    }
+    .btn-btn-primary {
+        background-color: #F51D1D;
+        border-radius: 0.75em;
+        border-color: #F51D1D;
+        text-align: center;
+        width: 9.313em;
+        height: 2.438em;
+        color: white;
+        font-family: Montserrat;
+        margin-left: 1.875em;
+        margin-bottom: 100px;
+        margin-top: 21px;
+    }
+    .container {
+        align-items: center;
+        padding-left: 48px;
+        background-color: rgb(243, 237, 237);
+    }
+   
+
+
+    
+}
