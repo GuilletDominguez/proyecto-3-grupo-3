@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asistir.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="confirm-logo">
+<img class="logo-confirmar-asistencia" src="assets/imagotipo_vertical_RGB_sin fondo (1).png" alt="">
+    <h2 class="c-asist">Confirmar Asistencia</h2></div>
+    <form id="form">
+       <div class= "container">
+        <div class="mb-3">
+          <label for="Nombres" class="form-label label-f">Nombres</label>
+          <input type="text" name="nombre" placeholder="Escribe tu nombre aqui" class="form-control" minlength="5" maxlength="40" required id="nombres">
+        </div>
+        <div class="mb-3">
+            <label for="Apellidos" class="form-label">Apellidos</label>
+            <input type="text" placeholder="Escribe tu apellido aqui" class="form-control" minlength="5" maxlength="40" required id="apellidos">
+          </div>
+          <div class="mb-3">
+            <label for="Telefono" class="form-label">Telefono</label>
+            <input type="tel" placeholder="Escribe tu numero de Telefono aqui" class="form-control"   maxlength="9" required id="tel">
+          </div>
+
+        
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+            <input type="email" placeholder="Escribe tu email aqui" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" class="form-control"  aria-describedby="emailHelp"  required id="email">
+            </div>
+
+          <div class="btn-asistencia"><button type="submit" class="btn btn-primary btn-asist" id="btn-asist" >Asistire</button></div>
+        </div>
+        <div id="mensaje"></div>
+      </form>
+
+    
+    
+</body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="asistir.js"></script>
+</html>

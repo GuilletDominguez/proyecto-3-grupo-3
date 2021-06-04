@@ -1,0 +1,54 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    padding: 5%;
+    margin-top: 10px;
+    width: 70%;
+}
+
+.logo-confirmar-asistencia{
+    margin-top: 100px;
+    width: 100px;
+    align-content: center;
+}
+
+.confirm-logo{
+    color: rgb(214, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -100px;
+}
+.mb-3{
+    color: rgb(71, 71, 78);
+}
+
+.btn-asistencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-asist{
+    background-color: #f51d1d !important;
+    width: 120px !important;
+    
+}
+
+.container{
+background-color: #bdbcf1 ; 
+height: 460px;
+
+}
+
+.label-f{
+    margin-top: 25px !important;
+}
+.c-asist{
+    margin-bottom: 0px !important;
+}

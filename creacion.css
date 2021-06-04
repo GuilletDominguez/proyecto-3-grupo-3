@@ -1,0 +1,101 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 5%;
+    margin-top: 10px;
+    width: 70%;
+}
+h4{
+    text-align: center;
+    color: rgb(154, 151, 168);
+    
+}
+.crea-h4{
+    margin-bottom: 0px;
+}
+.container{
+    height: 500px;
+    background-color: rgb(248, 249, 250);
+}
+.form-up{
+    margin-top: 30px;
+}
+.event-time{
+    display: flex;
+    column-gap: 40px;
+    
+    
+}
+#inputEvento{
+    width: 500px;
+    
+}
+.btn-crear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnSubmit{
+    margin-top: 20px !important;
+    width: 130px !important;
+    height: 45px !important;
+    background-color: orangered !important;
+   
+}
+
+.datos{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 20px;
+    
+}
+
+.descripcion-h5{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.box{
+    border: rgb(222, 224, 224) solid 1px;
+    box-shadow: cadetblue;
+    background-color: white;
+    width: 400px;
+    margin-top: 5px;
+    height: 110px;
+}
+
+.descripcion-map{
+    display: flex;
+    column-gap: 120px;
+}
+.cont-map{
+    width: 500px !important;
+    margin-top: -50px !important;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.conference{
+    margin-top: 30px;
+    margin-left: 8px;
+}
+.responsable{
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
